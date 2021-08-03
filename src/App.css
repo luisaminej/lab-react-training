@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+.creditCard {
+  width: 550px;
+  height: 280px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.creditCard .logo img{
+  width: 80px;
+  padding-right: 25px;
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+}
+
+.creditCard .number {
+  padding-top: 30px;
+  font-size: 3em;
+  margin-bottom: 35px;
+}
+
+.creditCard .number .hidden {
+  text-decoration-style: dotted;
+}
+
+.creditCard .data {
+  padding-left: 40px;
+  font-weight: 700;
+  text-align: left;
+  font-size: 2.1em;
+}
+
+
+
+.creditCard .data pre{
+  margin: 10px;
+}
+
+.driverCar {
+  border-radius: 10px;
+  width: 800px;
+  background-color: rgb(70, 95, 180);
+  margin:30px;
+  padding: 20px;
+  display: flex;
+	flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.driverCar .pic img{
+  object-fit: cover;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.driverCar .data {
+  display: flex;
+	flex-direction: column;
+  text-align: start;
+  color:white;
+  padding-left: 20px;
+}
+
+.driverCar .data .name {
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.driverCar .data .car {
+  font-size: 1.2em;
+}
